@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2207CDF81FCC378B0093A911 /* haar_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2207CDF71FCC378B0093A911 /* haar_cv.cpp */; };
+		2207CDFA1FCC4FD10093A911 /* DataPersistence_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2207CDF91FCC4FD10093A911 /* DataPersistence_cv.cpp */; };
 		221028C01FCAEE5700096496 /* show_img.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221028BF1FCAEE5700096496 /* show_img.cpp */; };
 		221028C31FCAF5A300096496 /* namedwindow_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221028C11FCAF5A300096496 /* namedwindow_cv.cpp */; };
 		221028C51FCB014C00096496 /* Pixels_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221028C41FCB014C00096496 /* Pixels_cv.cpp */; };
@@ -156,6 +157,7 @@
 
 /* Begin PBXFileReference section */
 		2207CDF71FCC378B0093A911 /* haar_cv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = haar_cv.cpp; sourceTree = "<group>"; };
+		2207CDF91FCC4FD10093A911 /* DataPersistence_cv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DataPersistence_cv.cpp; sourceTree = "<group>"; };
 		221028BF1FCAEE5700096496 /* show_img.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = show_img.cpp; sourceTree = "<group>"; };
 		221028C11FCAF5A300096496 /* namedwindow_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = namedwindow_cv.cpp; sourceTree = "<group>"; };
 		221028C41FCB014C00096496 /* Pixels_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pixels_cv.cpp; sourceTree = "<group>"; };
@@ -457,6 +459,7 @@
 				223C753E1FCBD3D600A47584 /* head_cv.h */,
 				223C753F1FCBD40D00A47584 /* video_mp4_cv.cpp */,
 				2207CDF71FCC378B0093A911 /* haar_cv.cpp */,
+				2207CDF91FCC4FD10093A911 /* DataPersistence_cv.cpp */,
 			);
 			path = Opencv3_learning;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				2207CDF81FCC378B0093A911 /* haar_cv.cpp in Sources */,
 				221028C01FCAEE5700096496 /* show_img.cpp in Sources */,
 				22E9D6831FCA5ECC00790215 /* main.cpp in Sources */,
+				2207CDFA1FCC4FD10093A911 /* DataPersistence_cv.cpp in Sources */,
 				221028C51FCB014C00096496 /* Pixels_cv.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

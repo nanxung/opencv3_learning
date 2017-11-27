@@ -7,12 +7,10 @@
 //
 
 #include <stdio.h>
-
 #include "head_cv.h"
-
-
+/*
 string face_cascade_name = "/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt_tree.xml";
-string face_cascade_name_ = "/usr/local/share/OpenCV/haarcascades/haarcascade_frontalcatface.xml";
+string face_cascade_name_ = "/usr/local/share/OpenCV/haarcascades/haarcascade_frontalcatface_extended.xml";
 CascadeClassifier face_cascade;
 string window_name = "FaceDetect";
 
@@ -23,16 +21,12 @@ void detectAndDisplay(Mat frame){
     equalizeHist(frame_gray,frame_gray);
     face_cascade.detectMultiScale(frame_gray, faces, 1.1, 2, 0 | CV_HAAR_SCALE_IMAGE,Size(30,30));
     
-    for ( int i=0; i < faces.size() ;  i++){
-        Point center(faces[i].x+faces[i].width*0.5,
-                     faces[i].y + faces[i].height*0.5
-                     );
+    for ( int i=0 ; i < faces.size() ;  i++){
+        Point center(faces[i].x + faces[i].width*0.5 , faces[i].y + faces[i].height*0.5 );
         ellipse(frame, center, Size(faces[i].width*0.5,faces[i].height*0.5), 0 , 0, 360, Scalar(255,0,255),4,8,0);
-        
     }
     imshow(window_name,frame);
-    moveWindow(window_name, 800,40);
-    
+    moveWindow(window_name, 850,40);
 }
 int main(int argc , char** argv){
     Mat in_frame,out_frame;
@@ -75,3 +69,4 @@ int main(int argc , char** argv){
     inVid.release();//关闭摄像机
     return 0;
 }
+*/
