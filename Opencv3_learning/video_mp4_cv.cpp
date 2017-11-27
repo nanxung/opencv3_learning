@@ -11,6 +11,7 @@
 #include <string.h>
 using namespace cv;
 using namespace std;
+/*
 string face_cascade_name0 = "/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt2.xml";
 string face_cascade_name1 = "/usr/local/share/OpenCV/haarcascades/haarcascade_eye_tree_eyeglasses.xml";
 string face_cascade_name2 = "/usr/local/share/OpenCV/haarcascades/haarcascade_fullbody.xml";
@@ -89,3 +90,4 @@ int main(int argc , char** argv){
         inVid.release();//关闭摄像机
         return 0;
 }
+*/
