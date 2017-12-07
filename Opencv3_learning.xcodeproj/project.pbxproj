@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2207CDF81FCC378B0093A911 /* haar_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2207CDF71FCC378B0093A911 /* haar_cv.cpp */; };
-		2207CDFA1FCC4FD10093A911 /* DataPersistence_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2207CDF91FCC4FD10093A911 /* DataPersistence_cv.cpp */; };
 		221028C01FCAEE5700096496 /* show_img.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221028BF1FCAEE5700096496 /* show_img.cpp */; };
 		221028C31FCAF5A300096496 /* namedwindow_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221028C11FCAF5A300096496 /* namedwindow_cv.cpp */; };
 		221028C51FCB014C00096496 /* Pixels_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221028C41FCB014C00096496 /* Pixels_cv.cpp */; };
-		223C75401FCBD40D00A47584 /* video_mp4_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 223C753F1FCBD40D00A47584 /* video_mp4_cv.cpp */; };
+		222EDFA61FCE6F4C003C068C /* morphological_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 222EDFA51FCE6F4C003C068C /* morphological_cv.cpp */; };
 		22754AED1FCB18B100F1DD40 /* video_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22754AEB1FCB18B100F1DD40 /* video_cv.cpp */; };
+		22BCECF61FD7D4D50017593B /* face_detect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22BCECF51FD7D4D50017593B /* face_detect.cpp */; };
+		22CE22781FCFACE300F180A9 /* video_scan_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CE22771FCFACE300F180A9 /* video_scan_cv.cpp */; };
+		22DB15781FCD835600E39940 /* Gaussian_Laplacian_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DB15701FCD835500E39940 /* Gaussian_Laplacian_cv.cpp */; };
+		22DB15791FCD835600E39940 /* haar_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DB15721FCD835600E39940 /* haar_cv.cpp */; };
+		22DB157A1FCD835600E39940 /* sharpen_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DB15731FCD835600E39940 /* sharpen_cv.cpp */; };
+		22DB157B1FCD835600E39940 /* DataPersistence_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DB15741FCD835600E39940 /* DataPersistence_cv.cpp */; };
+		22DB157C1FCD835600E39940 /* video_mp4_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DB15751FCD835600E39940 /* video_mp4_cv.cpp */; };
+		22DB157D1FCD835600E39940 /* Smooth_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DB15761FCD835600E39940 /* Smooth_cv.cpp */; };
 		22E9D6831FCA5ECC00790215 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22E9D6821FCA5ECC00790215 /* main.cpp */; };
 		22E9D7081FCA6A7000790215 /* libopencv_aruco.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9D68A1FCA6A7000790215 /* libopencv_aruco.3.3.1.dylib */; };
 		22E9D7091FCA6A7000790215 /* libopencv_aruco.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9D68B1FCA6A7000790215 /* libopencv_aruco.3.3.dylib */; };
@@ -141,6 +147,9 @@
 		22E9D7831FCA6A7000790215 /* libopencv_xphoto.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9D7051FCA6A7000790215 /* libopencv_xphoto.3.3.1.dylib */; };
 		22E9D7841FCA6A7000790215 /* libopencv_xphoto.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9D7061FCA6A7000790215 /* libopencv_xphoto.3.3.dylib */; };
 		22E9D7851FCA6A7000790215 /* libopencv_xphoto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9D7071FCA6A7000790215 /* libopencv_xphoto.dylib */; };
+		22FE37BA1FCFC22800CEFCA4 /* Scala_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22FE37B91FCFC22800CEFCA4 /* Scala_cv.cpp */; };
+		22FE37BC1FCFED6000CEFCA4 /* Translation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22FE37BB1FCFED6000CEFCA4 /* Translation.cpp */; };
+		22FE37BE1FCFFEEB00CEFCA4 /* faceDetect_cv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22FE37BD1FCFFEEB00CEFCA4 /* faceDetect_cv.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -156,14 +165,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2207CDF71FCC378B0093A911 /* haar_cv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = haar_cv.cpp; sourceTree = "<group>"; };
-		2207CDF91FCC4FD10093A911 /* DataPersistence_cv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DataPersistence_cv.cpp; sourceTree = "<group>"; };
 		221028BF1FCAEE5700096496 /* show_img.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = show_img.cpp; sourceTree = "<group>"; };
 		221028C11FCAF5A300096496 /* namedwindow_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = namedwindow_cv.cpp; sourceTree = "<group>"; };
 		221028C41FCB014C00096496 /* Pixels_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pixels_cv.cpp; sourceTree = "<group>"; };
-		223C753E1FCBD3D600A47584 /* head_cv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = head_cv.h; sourceTree = "<group>"; };
-		223C753F1FCBD40D00A47584 /* video_mp4_cv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = video_mp4_cv.cpp; sourceTree = "<group>"; };
+		222EDFA51FCE6F4C003C068C /* morphological_cv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = morphological_cv.cpp; sourceTree = "<group>"; };
 		22754AEB1FCB18B100F1DD40 /* video_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = video_cv.cpp; sourceTree = "<group>"; };
+		22BCECF51FD7D4D50017593B /* face_detect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = face_detect.cpp; sourceTree = "<group>"; };
+		22CE22771FCFACE300F180A9 /* video_scan_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = video_scan_cv.cpp; sourceTree = "<group>"; };
+		22DB15701FCD835500E39940 /* Gaussian_Laplacian_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gaussian_Laplacian_cv.cpp; sourceTree = "<group>"; };
+		22DB15711FCD835500E39940 /* head_cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = head_cv.h; sourceTree = "<group>"; };
+		22DB15721FCD835600E39940 /* haar_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = haar_cv.cpp; sourceTree = "<group>"; };
+		22DB15731FCD835600E39940 /* sharpen_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sharpen_cv.cpp; sourceTree = "<group>"; };
+		22DB15741FCD835600E39940 /* DataPersistence_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataPersistence_cv.cpp; sourceTree = "<group>"; };
+		22DB15751FCD835600E39940 /* video_mp4_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = video_mp4_cv.cpp; sourceTree = "<group>"; };
+		22DB15761FCD835600E39940 /* Smooth_cv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Smooth_cv.cpp; sourceTree = "<group>"; };
 		22E9D67F1FCA5ECC00790215 /* Opencv3_learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Opencv3_learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E9D6821FCA5ECC00790215 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		22E9D68A1FCA6A7000790215 /* libopencv_aruco.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_aruco.3.3.1.dylib; path = ../../../opencv/lib/libopencv_aruco.3.3.1.dylib; sourceTree = "<group>"; };
@@ -292,6 +307,9 @@
 		22E9D7051FCA6A7000790215 /* libopencv_xphoto.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_xphoto.3.3.1.dylib; path = ../../../opencv/lib/libopencv_xphoto.3.3.1.dylib; sourceTree = "<group>"; };
 		22E9D7061FCA6A7000790215 /* libopencv_xphoto.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_xphoto.3.3.dylib; path = ../../../opencv/lib/libopencv_xphoto.3.3.dylib; sourceTree = "<group>"; };
 		22E9D7071FCA6A7000790215 /* libopencv_xphoto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_xphoto.dylib; path = ../../../opencv/lib/libopencv_xphoto.dylib; sourceTree = "<group>"; };
+		22FE37B91FCFC22800CEFCA4 /* Scala_cv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scala_cv.cpp; sourceTree = "<group>"; };
+		22FE37BB1FCFED6000CEFCA4 /* Translation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Translation.cpp; sourceTree = "<group>"; };
+		22FE37BD1FCFFEEB00CEFCA4 /* faceDetect_cv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = faceDetect_cv.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,15 +469,24 @@
 		22E9D6811FCA5ECC00790215 /* Opencv3_learning */ = {
 			isa = PBXGroup;
 			children = (
+				22DB15741FCD835600E39940 /* DataPersistence_cv.cpp */,
+				22DB15701FCD835500E39940 /* Gaussian_Laplacian_cv.cpp */,
+				22DB15721FCD835600E39940 /* haar_cv.cpp */,
+				22DB15711FCD835500E39940 /* head_cv.h */,
+				22DB15731FCD835600E39940 /* sharpen_cv.cpp */,
+				22DB15761FCD835600E39940 /* Smooth_cv.cpp */,
+				22DB15751FCD835600E39940 /* video_mp4_cv.cpp */,
 				22E9D6821FCA5ECC00790215 /* main.cpp */,
 				221028BF1FCAEE5700096496 /* show_img.cpp */,
 				221028C11FCAF5A300096496 /* namedwindow_cv.cpp */,
 				221028C41FCB014C00096496 /* Pixels_cv.cpp */,
 				22754AEB1FCB18B100F1DD40 /* video_cv.cpp */,
-				223C753E1FCBD3D600A47584 /* head_cv.h */,
-				223C753F1FCBD40D00A47584 /* video_mp4_cv.cpp */,
-				2207CDF71FCC378B0093A911 /* haar_cv.cpp */,
-				2207CDF91FCC4FD10093A911 /* DataPersistence_cv.cpp */,
+				222EDFA51FCE6F4C003C068C /* morphological_cv.cpp */,
+				22CE22771FCFACE300F180A9 /* video_scan_cv.cpp */,
+				22FE37B91FCFC22800CEFCA4 /* Scala_cv.cpp */,
+				22FE37BB1FCFED6000CEFCA4 /* Translation.cpp */,
+				22FE37BD1FCFFEEB00CEFCA4 /* faceDetect_cv.cpp */,
+				22BCECF51FD7D4D50017593B /* face_detect.cpp */,
 			);
 			path = Opencv3_learning;
 			sourceTree = "<group>";
@@ -655,13 +682,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				223C75401FCBD40D00A47584 /* video_mp4_cv.cpp in Sources */,
+				22DB157A1FCD835600E39940 /* sharpen_cv.cpp in Sources */,
+				222EDFA61FCE6F4C003C068C /* morphological_cv.cpp in Sources */,
+				22FE37BE1FCFFEEB00CEFCA4 /* faceDetect_cv.cpp in Sources */,
+				22CE22781FCFACE300F180A9 /* video_scan_cv.cpp in Sources */,
+				22FE37BC1FCFED6000CEFCA4 /* Translation.cpp in Sources */,
 				22754AED1FCB18B100F1DD40 /* video_cv.cpp in Sources */,
+				22DB157C1FCD835600E39940 /* video_mp4_cv.cpp in Sources */,
+				22DB157B1FCD835600E39940 /* DataPersistence_cv.cpp in Sources */,
+				22DB157D1FCD835600E39940 /* Smooth_cv.cpp in Sources */,
 				221028C31FCAF5A300096496 /* namedwindow_cv.cpp in Sources */,
-				2207CDF81FCC378B0093A911 /* haar_cv.cpp in Sources */,
 				221028C01FCAEE5700096496 /* show_img.cpp in Sources */,
+				22BCECF61FD7D4D50017593B /* face_detect.cpp in Sources */,
+				22FE37BA1FCFC22800CEFCA4 /* Scala_cv.cpp in Sources */,
+				22DB15791FCD835600E39940 /* haar_cv.cpp in Sources */,
+				22DB15781FCD835600E39940 /* Gaussian_Laplacian_cv.cpp in Sources */,
 				22E9D6831FCA5ECC00790215 /* main.cpp in Sources */,
-				2207CDFA1FCC4FD10093A911 /* DataPersistence_cv.cpp in Sources */,
 				221028C51FCB014C00096496 /* Pixels_cv.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -792,7 +828,7 @@
 				22E9D6851FCA5ECC00790215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		22E9D6861FCA5ECC00790215 /* Build configuration list for PBXNativeTarget "Opencv3_learning" */ = {
 			isa = XCConfigurationList;
@@ -801,7 +837,7 @@
 				22E9D6881FCA5ECC00790215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
